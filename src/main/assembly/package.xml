@@ -11,7 +11,7 @@
   	  <destName>MaxTPS.jar</destName>
 	</file>
   	<file>
-  	  <source>/home/sd/McGroovy/target/McGroovy.jar</source>
+  	  <source>${project.build.directory}/../dependencies/McGroovy.jar</source>
   	  <outputDirectory>/</outputDirectory>
   	  <destName>McGroovy.jar</destName>
 	</file>
